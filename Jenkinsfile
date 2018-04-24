@@ -1,5 +1,5 @@
 node {
-    git 'https://github.com/a4gpa/todobackend.git'
+    checkout scm
 
     try {
         stage 'Run unit/integration tests'
